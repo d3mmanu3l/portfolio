@@ -2,6 +2,9 @@
   justify-content: flex-end;
 }
 
+.navbar-collapse {
+  background-color: #c8cece1a;
+}
 
 @media (max-width: 991px) {
   .navbar-brand {
@@ -12,6 +15,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.5rem !important;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .navbar-brand {
+    font-size: 2.25rem !important;
   }
 }
 
@@ -835,9 +845,6 @@
     justify-content: center;
   }
 }
-
-
-
 
 .footer-h3-variant {
   width: 626px;
